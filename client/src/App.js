@@ -1,12 +1,12 @@
   
 import './App.css';
-import EmployeeDirectory from './components/EmployeeDirectory.js';
+import UserDirectory from "./components/UserDirectory";
 
 
 function App() {
   return (
     <div className="App">
-        <EmployeeDirectory />
+        <UserDirectory />
     </div>
   );
 }
