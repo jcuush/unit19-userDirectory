@@ -4,7 +4,7 @@ import Table from "./Table.js";
 import empData from "../utils/empData.json";
 import "./style.css";
 
-class EmployeeDirectory extends Component {
+class UserDirectory extends Component {
     // define use state
     state = {
         name: "",
@@ -78,4 +78,4 @@ handleSort = () => {
 };
 
 
-export default EmployeeDirectory;
+export default UserDirectory;
